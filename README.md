@@ -1,8 +1,9 @@
 # flutterSqliteExample
+ ```dart
  dependencies:
   sqflite: ^2.0.0+4
   
-'''dart
+
     DataPdf datapdf=DataPdf();
     datapdf.id=5;
     datapdf.title="pdf";
@@ -23,4 +24,4 @@
       print(value!)
     });
 
-'''
+```
