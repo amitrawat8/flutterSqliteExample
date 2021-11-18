@@ -1,8 +1,20 @@
 # flutterSqliteExample
  ```dart
  dependencies:
-  sqflite: ^2.0.0+4
+  sqflite: 
   provider:
+  json_annotation:
+  
+  dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any  
+  json_serializable: 
+  
+  ##for auto generating the data.g.dart file use command :
+  flutter pub run build_runner build
+  
+
   
 
     DataPdf datapdf=DataPdf();
