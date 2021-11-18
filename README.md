@@ -1,4 +1,4 @@
-# flutterSqliteExample
+# Flutter Sqlite Example
  ```dart
  dependencies:
   sqflite: 
