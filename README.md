@@ -2,6 +2,7 @@
  ```dart
  dependencies:
   sqflite: ^2.0.0+4
+  provider:
   
 
     DataPdf datapdf=DataPdf();
