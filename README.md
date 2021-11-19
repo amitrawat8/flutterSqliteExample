@@ -1,7 +1,7 @@
 # Flutter Sqlite Example
  ```dart
  
- ## pubspec.yaml
+ => pubspec.yaml
  dependencies:
   sqflite: 
   provider:
@@ -13,12 +13,12 @@
   build_runner: any  
   json_serializable: 
   
-  ## for auto generating the data.g.dart file use command in terminal :
- 1. flutter pub get
- 2. flutter pub run build_runner build
+  => for auto generating the data.g.dart file use command in terminal :
+   1. flutter pub get
+   2. flutter pub run build_runner build
   
 
-  ## Example to use the Sqlite Database :
+  => Example to use the Sqlite Database :
 
     DataPdf datapdf=DataPdf();
     datapdf.id=5;
