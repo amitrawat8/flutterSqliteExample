@@ -44,8 +44,8 @@ class SQLiteDbProvider {
 
   Future<List<DataPdf>> getAllPdfDownload() async {
     final db = await database;
-    List<Map<String, dynamic>> results = await db!.query(DatabaseKey.TABLE_NAME,
-        columns: DataPdf.columns, orderBy: DatabaseKey.ID + " ASC");
+    List<Map<String, dynamic>> results =
+        await db!.query(DatabaseKey.TABLE_NAME);
     List<DataPdf> dataPdfDownload = [];
     results.forEach((result) {
       DataPdf product = DataPdf.fromJson(result);
