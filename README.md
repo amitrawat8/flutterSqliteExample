@@ -36,5 +36,10 @@
       print("data fetch"),
       print(value!)
     });
+    
+     SQLiteDbProvider.db.getAllPdfDownload().then((value) => {
+         List<DataPdf>? datapdf = value;
+          
+        });
 
 ```
